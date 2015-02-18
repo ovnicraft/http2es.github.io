@@ -3,45 +3,46 @@ layout: front
 title: HTTP/2
 ---
 	
-_See also [HTTP/2 JP](https://github.com/http2jp), maintained by the Japanese HTTP/2 community._
+_Ver también [HTTP/2 JP](https://github.com/http2jp), mantenido por la comunidad Japonesa HTTP/2._
 
-## What is HTTP/2?
+_Ver también [HTTP/2 ES](https://github.com/http2es), mantenido por la comunidad Japonesa HTTP/2._
 
-HTTP/2 is a replacement for how HTTP is expressed "on the wire." It is
-**not** a ground-up rewrite of the protocol; HTTP methods, status codes and
-semantics are the same, and it should be possible to use the same APIs as
-HTTP/1.x (possibly with some small additions) to represent the protocol.
+## Qué es HTTP/2?
 
-The focus of the protocol is on performance; specifically, end-user perceived
-latency, network and server resource usage. One major goal is to allow the use
-of a single connection from browsers to a Web site.
+HTTP/2 es un reemplazo para como HTTP es expresado "en el público." **No**
+es una re escritura del protocolo; métodos HTTP, códigos de estado y
+semántica son lo mismo, y debe ser posible usar la misma API como
+HTTP/1.x (posiblemente con pequeños extras) para representar el protocolo.
 
-The basis of the work was
-[SPDY](http://tools.ietf.org/html/draft-mbelshe-httpbis-spdy-00), but HTTP/2
-has evolved to take the community's input into account, incorporating several
-improvements in the process.
+El enfoque del protocolo es en rendimiento; específicamente, percepción de usuario final
+latencia, uso de recursos de red y servidor. El mayor objetivo es permitir el uso
+de una sola conexión desde el navegador a un sitio web.
 
-See [our charter](http://datatracker.ietf.org/wg/httpbis/charter/) for more
-details of the scope of the work, as well as our [Frequently Asked
-Questions](/faq/).
+La base de este trabajo fue
+[SPDY](http://tools.ietf.org/html/draft-mbelshe-httpbis-spdy-00), pero HTTP/2
+ha evolucionado para tomar el apoyo de la comunidad en cuenta, incorporando varias
+mejoras en el proceso.
 
-## Status
+Ver [our charter](http://datatracker.ietf.org/wg/httpbis/charter/) para más
+detalles del alcance del trabajo, tanto como nuestro [Preguntas Frecuentes](/faq/).
 
-HTTP/2 is nearly done standardization; it has been approved by the
-[IESG](http://www.ietf.org/iesg/), and should soon enter the [RFC
-Editor](https://www.rfc-editor.org/)'s publication queue.
+## Estado
+
+HTTP/2 está casi listo para ser un estándar; ha sido aprobado por el
+[IESG](http://www.ietf.org/iesg/), y pronto entraría a la cola de
+publicaciones del [Editor RFC](https://www.rfc-editor.org/).
 
 
-## Specifications
+## Especificaciones
 
-HTTP/2 is comprised of two specifications:
+HTTP/2 está compuesto de dos especificaciones:
 
-* Hypertext Transfer Protocol version 2 - [current IETF draft](http://tools.ietf.org/html/draft-ietf-httpbis-http2/), [editors' copy](http://http2.github.com/http2-spec/)
-* HPACK - Header Compression for HTTP/2 - [current IETF draft](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression/), [editors' copy](http://http2.github.com/http2-spec/compression.html)
+* Protocolo de Transferencia de Hipertexto versión 2 - [borrador actual IETF](http://tools.ietf.org/html/draft-ietf-httpbis-http2/), [copia del editor](http://http2.github.com/http2-spec/)
+* HPACK - Compresión de Cabecera para HTTP/2 - [borrador actual IETF](http://tools.ietf.org/html/draft-ietf-httpbis-header-compression/), [copia del editor](http://http2.github.com/http2-spec/compression.html)
  
  
-## Implementations
+## Implementaciones
 
-We track [known
-implementations](https://github.com/http2/http2-spec/wiki/Implementations) of
-HTTP/2 on our wiki. 
+Seguimos [implementaciones
+conocidas](https://github.com/http2/http2-spec/wiki/Implementations) de
+HTTP/2 en nuestra wiki. 
